@@ -1,23 +1,8 @@
 @import 'colours';
-@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import 'header';
+@import 'typography';
 
 body {
-    background-color: $cream;
+    background-color: $background-color;
     margin: 0;
 }
-
-h1 {
-    font-family: 'Pacifico', sans-serif;
-    font-size: 9em;
-    margin: 0;
-}
-
-.main-header {
-    background-color: $light-blue;
-    color: $white;
-    height: 100%;
-    min-height: 300px;
-    text-align: center;
-    width: 100%;
-}
-

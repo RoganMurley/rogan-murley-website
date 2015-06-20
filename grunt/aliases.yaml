@@ -1,0 +1,16 @@
+default:
+  description: 'Development task'
+  tasks:
+    - 'clean:dev'
+    - 'scsslint:all'
+    - 'jshint:all'
+    - 'sass:dev'
+    - 'watch'
+
+build:
+  description: 'Build the frontend assets for deployment'
+  tasks:
+    - 'clean:build'
+    - 'scsslint:all'
+    - 'jshint:all'
+    - 'sass:build'

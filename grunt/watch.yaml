@@ -1,0 +1,13 @@
+sass:
+  files:
+    - '<%= src.root%>/scss/**/*.scss'
+  tasks:
+    - 'scsslint:all'
+    - 'sass:dev'
+
+js:
+  files:
+    - 'Gruntfile.js'
+    - '<%= src.root %>/js/**/*.js'
+  tasks:
+    - 'jshint:all'

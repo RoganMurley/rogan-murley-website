@@ -1,0 +1,12 @@
+dev:
+  files:
+     '<%= dev.root %>/css/main.css' : '<%= src.root %>/scss/main.scss'
+  options:
+    style: 'expanded'
+
+build:
+  files:
+     '<%= build.root %>/css/main.css' : '<%= src.root %>/scss/main.scss'
+  options:
+    style: 'compressed'
+    sourcemap: false

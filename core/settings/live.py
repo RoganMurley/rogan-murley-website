@@ -23,5 +23,6 @@ STATIC_URL = 'static/'
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
-    '.appspot.com', # add my custom domain here.
+    '.appspot.com',
+    '.roganmurley.com'
 ]

@@ -1,0 +1,9 @@
+dev:
+  files:
+    '<%= dev.root %>/js/main.js':
+      - '<%= src.root %>/js/main.js'
+
+build:
+  files:
+    '<%= build.root %>/js/main.js':
+      - '<%= src.root %>/js/main.js'

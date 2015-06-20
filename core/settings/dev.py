@@ -112,8 +112,7 @@ USE_TZ = True
 
 
 CSP_SCRIPT_SRC = (
-    "http://www.google.com",
-    "http://fonts.googleapis.com",
+    "'self'",
 )
 
 

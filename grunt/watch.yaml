@@ -11,3 +11,4 @@ js:
     - '<%= src.root %>/js/**/*.js'
   tasks:
     - 'jshint:all'
+    - 'browserify:dev'

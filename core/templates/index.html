@@ -1,11 +1,21 @@
-{% extends "base.html" %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html ng-csp>
 
+    <head>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+        <title>
+            Webapp Seed
+        </title>
+    </head>
 
-{% block page_title %}
-    Web App Seed
-{% endblock %}
+    <body ng-app="webapp-seed">
+        <div id="bootstrap" data-static-url="{{ STATIC_URL }}"></div>
 
+        <script src="{% static 'js/main.js' %}"></script>
 
-{% block content %}
-    <h1> Hello, World! </h1>
-{% endblock %}
+        [[ greeting ]]
+
+    </body>
+
+</html>

@@ -5,6 +5,7 @@ default:
     - 'scsslint:all'
     - 'jshint:all'
     - 'sass:dev'
+    - 'browserify:dev'
     - 'watch'
 
 build:
@@ -14,3 +15,6 @@ build:
     - 'scsslint:all'
     - 'jshint:all'
     - 'sass:build'
+    - 'browserify:build'
+    - 'ngAnnotate:build'
+    - 'uglify:build'

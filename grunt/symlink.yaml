@@ -1,3 +1,8 @@
 dev:
     files:
         - {'<%= dev.root %>/partials/': '<%= src.root %>/partials/'}
+
+build:
+    files:
+        - {'<%= build.root %>/partials/': '<%= src.root %>/partials/'}
+

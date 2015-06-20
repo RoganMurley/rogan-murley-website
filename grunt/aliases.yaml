@@ -13,6 +13,7 @@ build:
   description: 'Build the frontend assets for deployment'
   tasks:
     - 'clean:build'
+    - 'symlink:build'
     - 'scsslint:all'
     - 'jshint:all'
     - 'sass:build'

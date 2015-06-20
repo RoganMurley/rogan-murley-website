@@ -2,6 +2,7 @@ default:
   description: 'Development task'
   tasks:
     - 'clean:dev'
+    - 'symlink:dev'
     - 'scsslint:all'
     - 'jshint:all'
     - 'sass:dev'

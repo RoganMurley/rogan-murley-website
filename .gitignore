@@ -54,5 +54,5 @@ coverage.xml
 docs/_build/
 
 # Frontend stuff!
-frontentd/dev/
+frontend/dev/
 frontend/build/

@@ -1,0 +1,3 @@
+dev:
+    files:
+        - {'<%= dev.root %>/partials/': '<%= src.root %>/partials/'}

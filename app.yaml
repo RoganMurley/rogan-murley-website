@@ -11,6 +11,10 @@ handlers:
   login: admin
   secure: optional
 
+- url: /static/
+  static_dir: frontend/build/
+  secure: optional
+
 - url: /static/admin/
   static_dir: sitepackages/django/contrib/admin/static/admin/
   secure: optional
@@ -34,4 +38,5 @@ skip_files:
     - \.storage.*
     - (.*)\.pyc
     - node_modules
-    - static/local
+    - static/dev
+    - static/src

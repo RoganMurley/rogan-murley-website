@@ -1,4 +1,4 @@
-from core.settings import *
+from core.settings.dev import *
 
 SESSION_COOKIE_SECURE = True
 SECURE_HSTS_SECONDS = 2592000 #30 days
@@ -18,8 +18,10 @@ SECURE_REDIRECT_EXEMPT = [
 DEBUG = False
 TEMPLATE_DEBUG = False
 
-STATIC_ROOT = 'frontend/build/'
+STATIC_URL = 'static/'
 
 ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost',
     '.appspot.com', # add my custom domain here.
 ]

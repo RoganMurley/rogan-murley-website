@@ -11,7 +11,7 @@
     };
 
     // Angular app.
-    var app = angular.module('webapp-seed', []);
+    var app = angular.module('landing', []);
 
     app.config(/*@ngInject*/ function($interpolateProvider) {
         $interpolateProvider.startSymbol('[[').endSymbol(']]');
@@ -19,6 +19,6 @@
 
     app.run( /*@ngInject*/ function ($rootScope) {
         $rootScope.staticUrl = staticUrl;
-        $rootScope.greeting = 'hello, world!';
+        $rootScope.greeting = 'Hello!';
     });
 }());

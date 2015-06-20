@@ -8,6 +8,7 @@ __pycache__/
 !/.gitignore
 !/.gitmodules
 !/.jshintrc
+!/.scss-lint.yml
 
 # C extensions
 *.so

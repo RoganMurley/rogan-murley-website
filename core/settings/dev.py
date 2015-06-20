@@ -115,6 +115,14 @@ CSP_SCRIPT_SRC = (
     "'self'",
 )
 
+CSP_STYLE_SRC = (
+    "'self'",
+    "fonts.googleapis.com",
+)
+
+CSP_FONT_SRC = (
+    "*.gstatic.com",
+)
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
@@ -126,7 +134,7 @@ STATICFILES_DIRS = (
 
 
 if DEBUG:
-    CSP_STYLE_SRC = ("'self'", "'unsafe-inline'")
+    CSP_STYLE_SRC = CSP_STYLE_SRC + ("'unsafe-inline'", )
 
 
 from djangae.contrib.gauth.settings import *

@@ -35,7 +35,7 @@
         $state
     ) {
         $rootScope.staticUrl = staticUrl;
-        $rootScope.greeting = 'Hello!';
+        $rootScope.heading = 'Rogan Murley';
 
         $state.transitionTo('landing');
     });

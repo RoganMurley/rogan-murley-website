@@ -35,7 +35,12 @@
         $state
     ) {
         $rootScope.staticUrl = staticUrl;
-        $rootScope.heading = 'Rogan Murley';
+
+        var i;
+        $rootScope.projects = [];
+        for (i = 0; i < 100; i++) {
+            $rootScope.projects.push('Exciting Project ' + i);
+        }
 
         $state.transitionTo('landing');
     });

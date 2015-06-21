@@ -1,8 +1,10 @@
 dev:
     files:
         - {'<%= dev.root %>/partials/': '<%= src.root %>/partials/'}
+        - {'<%= dev.root %>/js/ga.js': '<%= src.root %>/js/ga.js'}
 
 build:
     files:
         - {'<%= build.root %>/partials/': '<%= src.root %>/partials/'}
+        - {'<%= build.root %>/js/ga.js': '<%= src.root %>/js/ga.js'}
 

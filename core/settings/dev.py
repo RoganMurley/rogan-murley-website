@@ -111,17 +111,23 @@ USE_L10N = True
 USE_TZ = True
 
 
+CSP_FONT_SRC = (
+    "*.gstatic.com",
+)
+
+CSP_IMG_SRC = (
+    "'self'",
+    "www.google-analytics.com",
+)
+
 CSP_SCRIPT_SRC = (
     "'self'",
+    "www.google-analytics.com",
 )
 
 CSP_STYLE_SRC = (
     "'self'",
     "fonts.googleapis.com",
-)
-
-CSP_FONT_SRC = (
-    "*.gstatic.com",
 )
 
 # Static files (CSS, JavaScript, Images)

@@ -11,7 +11,8 @@ module.exports = function(grunt, options) {
         all: {
             src: [
                 'Gruntfile.js',
-                '<%= src.root %>/js/**/*.js'
+                '<%= src.root %>/js/**/*.js',
+                '!<%= src.root %>/js/ga.js'
             ]
         }
     };

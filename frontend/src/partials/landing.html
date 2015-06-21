@@ -7,12 +7,8 @@
     </h2>
 </header>
 
-<div class="tiles" flex>
-    <div class="tile" flex ng-repeat="project in projects">
-        <div class="tile-name">
-            [[ project ]]
-        </div>
-        <div class="tile-content">
-        </div>
-    </div>
-</div>
+<tiles>
+    <tile ng-repeat="project in projects">
+        [[ project ]]
+    </tile>
+</tiles>

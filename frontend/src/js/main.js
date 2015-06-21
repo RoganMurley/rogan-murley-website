@@ -30,6 +30,9 @@
             });
     });
 
+    app.directive('tiles', require('./components/tilesDirective.js'));
+    app.directive('tile', require('./components/tileDirective.js'));
+
     app.run( /*@ngInject*/ function (
         $rootScope,
         $state

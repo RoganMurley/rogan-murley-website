@@ -9,9 +9,9 @@
 
 <tiles>
     <tile class="asuka"
-        data-image="images/sunset.jpg"
-        data-image-alt="Pink sunset over water"
-        ng-repeat="project in projects">
-        [[ project ]]
+        ng-repeat="project in projects"
+        data-image="[[ project.image ]]"
+        data-image-alt="[[ project.imageAlt ]]">
+        [[ project.name ]]
     </tile>
 </tiles>

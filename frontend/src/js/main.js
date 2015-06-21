@@ -42,7 +42,11 @@
         var i;
         $rootScope.projects = [];
         for (i = 0; i < 100; i++) {
-            $rootScope.projects.push('Exciting Project ' + i);
+            $rootScope.projects.push({
+                image: 'images/sunset.jpg',
+                imageAlt: 'Pink sunset over water',
+                name: 'Exciting Project ' + i,
+            });
         }
 
         $state.transitionTo('landing');

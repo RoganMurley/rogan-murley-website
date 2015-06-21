@@ -1,6 +1,6 @@
 .tile {
     background-color: $secondary-color;
-    color: $heading-color;
+    color: $heading-text-color;
     float: left;
     font-family: 'Sarala', sans-serif;
     height: 250px;
@@ -9,7 +9,7 @@
 }
 
 .tile-content {
-    background-color: $heading-color;
+    background-color: $heading-text-color;
     height: 200px;
     width: 250px;
 }

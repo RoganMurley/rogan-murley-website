@@ -1,3 +1,7 @@
+$tile-width: 330px;
+$tile-height: 330px;
+
+
 .tiles {
     align-items: center;
     display: flex;
@@ -9,19 +13,19 @@
         color: $heading-text-color;
         display: flex;
         font-family: 'Sarala', sans-serif;
-        height: 250px;
+        height: $tile-height;
         margin: 20px;
-        width: 250px;
+        width: $tile-width;
 
         .tile-content {
-            height: 200px;
-            width: 250px;
+            height: $tile-height - 50px;
+            width: $tile-width;
         }
 
         .tile-name {
             font-size: 20px;
             line-height: 30px;
-            margin: 210px 0 0;
+            margin: ($tile-height - 40px) 0 0;
             padding: 0 0 0 12px;
             position: absolute;
         }

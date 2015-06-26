@@ -7,6 +7,7 @@ $tile-height: 330px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 50px;
 
     .tile {
         background-color: $secondary-color;

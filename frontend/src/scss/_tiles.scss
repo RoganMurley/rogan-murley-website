@@ -16,7 +16,15 @@ $tile-height: 160px;
         font-family: 'Sarala', sans-serif;
         height: $tile-height;
         margin: 10px;
+        transition: .1s ease-out;
         width: $tile-width;
+
+        &:hover {
+            box-shadow: 5px;
+            cursor: pointer;
+            transform: scale(1.02, 1.02);
+            transition: .2s ease-out;
+        }
 
         .tile-content {
             height: $tile-height - 50px;

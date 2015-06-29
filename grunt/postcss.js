@@ -14,7 +14,7 @@ module.exports = function(grunt, options) {
                 ]
             },
             files: [{
-                '<%= build.root %>/css/main.css': 'frontend/build/css/main.css'
+                '<%= build.root %>/css/main.css': '<%= build.root %>/css/main.css'
             }]
         }
     };

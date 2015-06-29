@@ -17,6 +17,7 @@ build:
     - 'scsslint:all'
     - 'jshint:all'
     - 'sass:build'
+    - 'postcss:build'
     - 'browserify:build'
     - 'ngAnnotate:build'
     - 'uglify:build'

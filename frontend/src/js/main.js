@@ -45,10 +45,10 @@
         $rootScope.projects.push({
             image: 'images/stocks.jpg',
             imageAlt: 'Phillipine stock market',
-            name: "SVG and <base> don't mix",
+            name: "Why SVG and <base> don't mix",
         });
 
-        for (i = 0; i < 100; i++) {
+        for (i = 0; i < 8; i++) {
             $rootScope.projects.push({
                 image: 'images/sunset.jpg',
                 imageAlt: 'Pink sunset over water',

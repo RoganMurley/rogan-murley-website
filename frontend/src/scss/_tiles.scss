@@ -1,5 +1,5 @@
 $tile-width: 330px;
-$tile-height: 330px;
+$tile-height: 160px;
 
 
 .tiles {
@@ -15,7 +15,7 @@ $tile-height: 330px;
         display: flex;
         font-family: 'Sarala', sans-serif;
         height: $tile-height;
-        margin: 20px;
+        margin: 10px;
         width: $tile-width;
 
         .tile-content {

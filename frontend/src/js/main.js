@@ -41,6 +41,13 @@
 
         var i;
         $rootScope.projects = [];
+
+        $rootScope.projects.push({
+            image: 'images/sunset.jpg',
+            imageAlt: 'Pink sunset over water',
+            name: 'SVGs and <base>',
+        });
+
         for (i = 0; i < 100; i++) {
             $rootScope.projects.push({
                 image: 'images/sunset.jpg',

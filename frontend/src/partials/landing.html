@@ -3,15 +3,15 @@
         Rogan Murley
     </h1>
     <h2>
-        full stack developer / comp sci student
+        just another blog
     </h2>
 </header>
 
 <tiles>
-    <tile class="asuka"
-        ng-repeat="project in projects"
+    <tile ng-repeat="project in projects"
         data-image="[[ project.image ]]"
-        data-image-alt="[[ project.imageAlt ]]">
+        data-image-alt="[[ project.imageAlt ]]"
+        ui-sref="blogPost">
         [[ project.name ]]
     </tile>
 </tiles>

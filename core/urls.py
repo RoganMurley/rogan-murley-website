@@ -10,7 +10,6 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^$', 'core.views.home', name='home'),
     url(r'^_ah/', include('djangae.urls')),
 
     # Note that by default this is also locked down with login:admin in app.yaml
@@ -22,3 +21,5 @@ urlpatterns = patterns('',
 if settings.DEBUG:
     from django.contrib.staticfiles.urls import staticfiles_urlpatterns
     urlpatterns += staticfiles_urlpatterns()
+
+urlpatterns += (url(r'^.*$', 'core.views.home', name='home'),)

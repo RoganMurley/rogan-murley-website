@@ -27,6 +27,9 @@
             .state('landing', {
                 templateUrl: staticUrl('partials/landing.html'),
                 url: '/',
+            }).state('blogPost', {
+                templateUrl: staticUrl('partials/blog_post.html'),
+                url: '/post',
             });
     });
 
